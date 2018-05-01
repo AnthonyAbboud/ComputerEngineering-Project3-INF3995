@@ -1,0 +1,40 @@
+Ce document inclut la spécification du protocole pour la communication des données du serveur vers le client.
+
+La communication se fait par UDP.
+
+Le client démarre la transaction en envoyant un message dont le message contient:
+- Sur la première ligne, le "numéro de séquence" de la première donnée voulue (mettre 0 au départ).
+- Sur la deuxième ligne, le nombre de données voulu.
+
+Le serveur répond avec le message suivant:
+- Sur la première ligne, le mot "OK" si le message du client a bien été compris, "FAIL" sinon.
+- Si c'est OK:
+- Sur la deuxième ligne, le "numéro de séquence" de la donnée suivant la dernière qui est envoyée dans ce message (deviendrait le numéro de séquence indiqué dans le prochain message envoyé par le client).
+- Sur la troisième ligne, le nombre de données envoyées dans ce message.
+- Sur les lignes suivantes, les données elles-mêmes (une données CAN en base64 (https://fr.wikipedia.org/wiki/Base64) par ligne (chaque donnée aura 24 caractère + le newline, je crois?), en ordre de la plus ancienne à la plus récente).
+
+L'idée d'avoir un "numéro de séquence" est de limiter le nombre de données envoyé à chaque fois.
+
+Par exemple, disons que le serveur a les données suivantes: 123xyz, abc, qwerty, asdfg, 44444.
+- Le client fait la requête suivante (numéro de séquence à 0 pour commencer):
+0
+6
+- Le serveur renvoie le message suivant (le numéro de séquence reçu ne sera pas toujours nécessairement 102):
+102
+5
+123xyz
+abc
+qwerty
+asdfg
+44444
+- Entretemps, le serveur reçoit les données suivantes: aeiou, 111aaa. Il a donc emmagasiné les données: 123xyz, abc, qwerty, asdfg, 44444, aeiou, 111aaa.
+- Le client fait sa prochaine requête (le numéro de séquence devrait être le même que celui envoyé par le serveur précédemment):
+102
+6
+- Le serveur répond avec le message suivant (note: le numéro de séquence permet au serveur de n'envoyer que les 2 nouvelles valeurs que le client n'a jamais reçu avant):
+104
+2
+aeiou
+111aaa
+
+Pour simplifier les choses, toutes les valeurs numériques sont transmises en texte (ex. pour envoyer la valeur 102, envoyer les caractères '1', '0' et '2').

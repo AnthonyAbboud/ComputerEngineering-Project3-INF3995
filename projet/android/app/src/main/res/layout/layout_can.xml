@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.mounia.client.Fragments.FragmentCan">
+
+        <!--<TableLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<TableRow-->
+                <!--android:layout_height="4dp"-->
+                <!--android:layout_width="fill_parent">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:text="@string/essai"-->
+                    <!--android:id="@+id/etiquete"-->
+                    <!--android:textColor="#000"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_column="1"-->
+                    <!--android:padding="4dp"-->
+                    <!--android:text="@string/abc"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:id="@+id/valeur"-->
+                    <!--android:textColor="#000"/>-->
+
+            <!--</TableRow>-->
+        <!--</TableLayout>-->
+</LinearLayout>

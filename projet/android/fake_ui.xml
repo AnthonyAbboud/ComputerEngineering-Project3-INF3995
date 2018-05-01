@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rocket name="Fake Polaris" id="10">
+			<TabContainer>
+				<Tab name="Plots">
+				</Tab>
+				<Tab name="Map"></Tab>
+				<Tab name="Radio Status"></Tab>
+			</TabContainer>
+</Rocket>

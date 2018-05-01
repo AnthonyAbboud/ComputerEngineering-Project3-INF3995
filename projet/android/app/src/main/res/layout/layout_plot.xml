@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidplot="http://schemas.android.com/apk/lib/com.example.applicationname"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    xmlns:androidPlot="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+<com.androidplot.xy.XYPlot
+    android:id="@+id/dynamicXYPlot"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    androidplot.renderMode="use_background_thread"
+    ap:domainTitle="deg/s / g"
+    ap:legendAnchor="right_bottom"
+    ap:legendHeight="25dp"
+    ap:legendIconHeight="15dp"
+    ap:legendIconWidth="15dp"
+    ap:legendTextSize="15sp"
+    ap:rangeTitle="Angular Speeds / Acceleration"
+    ap:title="Gyro / Accel"
+    />
+
+    <!--<com.androidplot.xy.XYPlot-->
+        <!--android:id="@+id/dynamicXYPlot"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--androidPlot:androidPlot.title="XY Plot using AndroidPlot"-->
+        <!--androidPlot:androidPlot.domainLabel="Domain-Y"-->
+        <!--androidPlot:androidPlot.rangeLabel="Range-X"-->
+        <!--androidPlot:androidPlot.titleWidget.labelPaint.textSize="@dimen/title_font_size"-->
+        <!--androidPlot:androidPlot.domainLabelWidget.labelPaint.textSize="12dp"-->
+        <!--androidPlot:androidPlot.rangeLabelWidget.labelPaint.textSize="12dp"-->
+        <!--androidPlot:androidPlot.graphWidget.marginTop="20dp"-->
+        <!--androidPlot:androidPlot.graphWidget.marginLeft="15dp"-->
+        <!--androidPlot:androidPlot.graphWidget.marginBottom="25dp"-->
+        <!--androidPlot:androidPlot.graphWidget.marginRight="10dp"-->
+        <!--androidPlot:androidPlot.graphWidget.rangeLabelPaint.textSize="12dp"-->
+        <!--androidPlot:androidPlot.graphWidget.rangeOriginLabelPaint.textSize="12dp"-->
+        <!--androidPlot:androidPlot.graphWidget.domainLabelPaint.textSize="12dp"-->
+        <!--androidPlot:androidPlot.graphWidget.domainOriginLabelPaint.textSize="12dp"-->
+        <!--androidPlot:androidPlot.legendWidget.textPaint.textSize="12dp"-->
+        <!--androidPlot:androidPlot.legendWidget.iconSizeMetrics.heightMetric.value="15dp"-->
+        <!--androidPlot:androidPlot.legendWidget.iconSizeMetrics.widthMetric.value="15dp"-->
+        <!--androidPlot:androidPlot.legendWidget.heightMetric.value="25dp"-->
+        <!--androidPlot:androidPlot.legendWidget.positionMetrics.anchor="right_bottom"-->
+        <!--androidPlot:androidPlot.graphWidget.gridLinePaint.color="#000000"/>-->
+
+
+
+
+</LinearLayout>

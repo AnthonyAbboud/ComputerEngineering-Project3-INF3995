@@ -1,0 +1,11 @@
+*.log
+__pycache__/
+*.stackdump
+test_client_recv.txt
+
+
+
+# os generated
+################
+.DS_Store
+.DS_Store?

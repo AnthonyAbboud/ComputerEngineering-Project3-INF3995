@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_height="4dp"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="1 - LAT"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_LATITUDE"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="2 - LAT"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_LATITUDE_2"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="1 - LONG"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_LONGITUDE"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="2 - LONG"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_LONGITUDE_2"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="1 - ALT"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_ALT_MSL"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="2 - ALT"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_ALT_MSL_2"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="1 - Gnd speed"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_GND_SPEED"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="2 - Gnd speed"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_GND_SPEED_2"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="1 - Nb sat"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_NB_SAT"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="2 - Nb sat"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_NB_SAT_2"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="1 - UTC"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_DATE_TIME"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="2 - UTC"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_DATE_TIME_2"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="1 - Horiz. precision"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_FIX_QUAL"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="2 - Horiz. precision"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_FIX_QUAL_2"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="1 - Course over Ground"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_TRACK_ANG"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="2 - Course over Ground"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/GPS1_TRACK_ANG_2"
+                    android:textColor="#000"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="PUM 0"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="PUM 2"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE_2"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ABMM A"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE_3"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ABMM B"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE_4"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ABMM C"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE_5"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="AGRUM 1"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE_6"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="AGRUM 2"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE_7"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="AGRUM 3"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE_8"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="AGRUM 4"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE_9"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="MOBO_FTDI"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE_10"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="MOBO_AGRUM"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ONE_WIRE_TEMPERATURE_11"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADM 1"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/BAR_TEMPERATURE1"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADM 2"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/BAR_TEMPERATURE1_1"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADIRM 0"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/BAR_TEMPERATURE1_2"
+                    android:textColor="#000"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

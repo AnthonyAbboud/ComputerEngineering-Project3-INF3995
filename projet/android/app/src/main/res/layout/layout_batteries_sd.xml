@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:text="ABMM A"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/abmm_a_1"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:text="ABMM B"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/abmm_b_1"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:text="PUM 2 3V3"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/pum_2_3v3"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:layout_weight="0.05"
+                    android:text="ADM 1 chgd"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adm_1_chgd"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ABMM B"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/abmm_b_2"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:text="ABMM C"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/abmm_c_1"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:text="PUM 2 5V"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/pum_2_5v"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:text="ADM 2 chgd"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adm_2_chgd_2"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:text="ABMM C"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/abmm_c_2"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:text="PUM 0 3V3"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/pum_0_3v3"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADM 1 45V"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adm_1_45v"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:text="ABMM A"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/abmm_a_2"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="PUM 0 5V"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/pum_0_5v"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADM 2 45V"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adm_2_45v"
+                    android:textColor="#000"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADIRM 0 msg lost"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adirm_0_msg_lost"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="ADIRM left"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adirm_left"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADIRM wr."
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adirm_wr"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="GS UART write error"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/gs_uart_write_error"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADLM 2 msg lost"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adlm_2_msg_lost"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="ADLM 2 left"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adlm_2_left"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADLM 2 wr."
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adlm_2_wr"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="GS UART read error"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/gs_uart_read_error"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADLM 3 msg lost"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adlm_3_msg_lost"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="ADLM 3 left"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adlm_3_left"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADLM 3 wr."
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adlm_3_wr"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="0.05"
+                    android:padding="5dp"
+                    android:text="ADIRM data queue full"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="0.2"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/adirm_data_queue_full"
+                    android:textColor="#000"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
